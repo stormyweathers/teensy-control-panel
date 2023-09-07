@@ -1,0 +1,1276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/user/repos/teensy-control-panel/teensy-control-panel.kicad_sch</source>
+    <date>Wed 06 Sep 2023 05:39:03 PM PDT</date>
+    <tool>Eeschema 7.0.7-7.0.7~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>teensy-control-panel.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/manual-analog-ctrl/" tstamps="/e6b9cf64-9bf3-4231-b389-c9a62525e93f/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>manual-analog-ctrl.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/manual-analog-ctrl1/" tstamps="/303f7d68-24cc-4269-92de-7cb42c5f4678/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>manual-analog-ctrl.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/manual-analog-ctrl2/" tstamps="/fa190f4b-fb06-4793-9ff3-79406860cfde/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>manual-analog-ctrl.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/manual-analog-ctrl3/" tstamps="/f4dc9b2f-90d3-4d6c-8d9e-9531156d250a/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>manual-analog-ctrl.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/manual-analog-ctrl4/" tstamps="/9ed7839b-294d-47a9-b023-0397928ffbfb/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>manual-analog-ctrl.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/manual-analog-ctrl5/" tstamps="/a62ddcdb-9b5a-4696-bf7e-102a5fa0349d/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>manual-analog-ctrl.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/manual-analog-ctrl7/" tstamps="/f07c76c4-d851-4217-aae1-0edc70b09cad/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>manual-analog-ctrl.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/manual-analog-ctrl6/" tstamps="/957b64d6-ade8-45ab-8af6-440e0d0fb479/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>manual-analog-ctrl.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="CO101">
+      <value>GPIO_D7-D10</value>
+      <footprint>matterwave:RJ45</footprint>
+      <libsource lib="matterwave" part="RJ45" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="teensy-control-panel.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1b20976-8644-45e3-96a6-88d856776f4e 56c4c0e1-1aba-47e0-ab84-4db9e0c72343 4a0d395a-6ce5-45aa-8dd8-4ccf44f414de 1b2aa05f-5913-43a2-8dbf-da05d0edf4db</tstamps>
+    </comp>
+    <comp ref="CO102">
+      <value>GPIO_D3-D6</value>
+      <footprint>matterwave:RJ45</footprint>
+      <libsource lib="matterwave" part="RJ45" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="teensy-control-panel.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e856d402-da13-4581-8f8e-2ecfb065f2d2 e4dd4c99-aade-4ce6-83da-f6fd4637005d 7e36c612-41a5-4953-919e-bd2f9a8b572d 1faa49b5-179d-4a6f-9bda-edba9e423e6a</tstamps>
+    </comp>
+    <comp ref="H101">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="teensy-control-panel.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7834d83d-a843-4059-a9f9-8b5fefc549ce</tstamps>
+    </comp>
+    <comp ref="H102">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="teensy-control-panel.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b5cdddf-b064-4ce6-9986-231c558285ff</tstamps>
+    </comp>
+    <comp ref="H103">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="teensy-control-panel.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea73a5ad-44cf-418c-8eea-afb68f61e9b4</tstamps>
+    </comp>
+    <comp ref="H104">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="teensy-control-panel.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5645cdd-ee66-4ec3-9036-a482a85a4e5b</tstamps>
+    </comp>
+    <comp ref="H105">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="teensy-control-panel.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b5000a44-e582-4db4-84af-6ded5a9eff3f</tstamps>
+    </comp>
+    <comp ref="H106">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="teensy-control-panel.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b0688878-2abc-4a1f-a598-32f752c68fe5</tstamps>
+    </comp>
+    <comp ref="H107">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="teensy-control-panel.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8619b82-a063-4d5c-97ac-dbfd877b5c99</tstamps>
+    </comp>
+    <comp ref="H108">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="teensy-control-panel.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>febd721f-64cd-4df8-98e1-753cf063a1ff</tstamps>
+    </comp>
+    <comp ref="H109">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="teensy-control-panel.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b0b1b86c-c456-43b3-9ca6-6d63e5165dae</tstamps>
+    </comp>
+    <comp ref="H110">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="teensy-control-panel.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1461dd7f-80a4-415a-a640-22c7c49b9542</tstamps>
+    </comp>
+    <comp ref="J101">
+      <value>I2C_1</value>
+      <footprint>Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal</footprint>
+      <fields>
+        <field name="jlcpcb">C160404</field>
+      </fields>
+      <libsource lib="matterwave" part="stemma-qt" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="jlcpcb" value="C160404"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="teensy-control-panel.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2fda028-493e-450d-a331-2a7f6695531e</tstamps>
+    </comp>
+    <comp ref="J102">
+      <value>I2C_0</value>
+      <footprint>Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal</footprint>
+      <fields>
+        <field name="jlcpcb">C160404</field>
+      </fields>
+      <libsource lib="matterwave" part="stemma-qt" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="jlcpcb" value="C160404"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="teensy-control-panel.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2bd49bf6-4812-4ea7-ac4d-630f3ee5aa33</tstamps>
+    </comp>
+    <comp ref="SW101">
+      <value>RotaryEncoder_Switch</value>
+      <footprint>Connector_JST:JST_PH_B5B-PH-SM4-TB_1x05-1MP_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="jlcpcb">C265086</field>
+      </fields>
+      <libsource lib="Device" part="RotaryEncoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <property name="jlcpcb" value="C265086"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="teensy-control-panel.kicad_sch"/>
+      <property name="ki_description" value="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <property name="ki_keywords" value="rotary switch encoder switch push button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6dbe274-c414-496e-ada3-cc7a8fc6d31e</tstamps>
+    </comp>
+    <comp ref="SW102">
+      <value>SW_0</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="jlcpcb">C265003</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="jlcpcb" value="C265003"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="teensy-control-panel.kicad_sch"/>
+      <property name="ki_description" value="Single Pole Single Throw (SPST) switch"/>
+      <property name="ki_keywords" value="switch lever"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>73cd070e-d0f0-4a3d-9144-2c1599299c8f</tstamps>
+    </comp>
+    <comp ref="SW103">
+      <value>SW_0</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="jlcpcb">C265003</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="jlcpcb" value="C265003"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="teensy-control-panel.kicad_sch"/>
+      <property name="ki_description" value="Single Pole Single Throw (SPST) switch"/>
+      <property name="ki_keywords" value="switch lever"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7f580858-8e4e-4637-9284-ea4f54715140</tstamps>
+    </comp>
+    <comp ref="SW104">
+      <value>SW_0</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="jlcpcb">C265003</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="jlcpcb" value="C265003"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="teensy-control-panel.kicad_sch"/>
+      <property name="ki_description" value="Single Pole Single Throw (SPST) switch"/>
+      <property name="ki_keywords" value="switch lever"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66f141b4-5ab1-4257-966f-ac688f428238</tstamps>
+    </comp>
+    <comp ref="SW105">
+      <value>PRGM</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="jlcpcb">C265003</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="jlcpcb" value="C265003"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="teensy-control-panel.kicad_sch"/>
+      <property name="ki_description" value="Single Pole Single Throw (SPST) switch"/>
+      <property name="ki_keywords" value="switch lever"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a67355b2-f994-442a-afe6-b428850ea0e8</tstamps>
+    </comp>
+    <comp ref="U101">
+      <value>Teensy4.0</value>
+      <footprint>teensy:Teensy40_reduced</footprint>
+      <libsource lib="teensy" part="Teensy4.0" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="teensy-control-panel.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24ffeb43-c7c9-4e3b-ba56-004f40121b6c</tstamps>
+    </comp>
+    <comp ref="C201">
+      <value>220n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="jlcpcb">C21120</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="jlcpcb" value="C21120"/>
+      <property name="Sheetname" value="manual-analog-ctrl"/>
+      <property name="Sheetfile" value="manual-analog-ctrl.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/manual-analog-ctrl/" tstamps="/e6b9cf64-9bf3-4231-b389-c9a62525e93f/"/>
+      <tstamps>7a5592f9-c3fd-41cb-ad63-d5ad56040060</tstamps>
+    </comp>
+    <comp ref="R201">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="jlcpcb">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="jlcpcb" value="C21190"/>
+      <property name="Sheetname" value="manual-analog-ctrl"/>
+      <property name="Sheetfile" value="manual-analog-ctrl.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/manual-analog-ctrl/" tstamps="/e6b9cf64-9bf3-4231-b389-c9a62525e93f/"/>
+      <tstamps>dba15999-1dc9-455d-ad92-3fb24ab35754</tstamps>
+    </comp>
+    <comp ref="RV201">
+      <value>10k</value>
+      <footprint>Connector_JST:JST_PH_B3B-PH-SM4-TB_1x03-1MP_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="jlcpcb">C265082</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="jlcpcb" value="C265082"/>
+      <property name="Sheetname" value="manual-analog-ctrl"/>
+      <property name="Sheetfile" value="manual-analog-ctrl.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/manual-analog-ctrl/" tstamps="/e6b9cf64-9bf3-4231-b389-c9a62525e93f/"/>
+      <tstamps>a1d4f917-02f5-4b03-8625-76404654d3f2</tstamps>
+    </comp>
+    <comp ref="C301">
+      <value>220n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="jlcpcb">C21120</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="jlcpcb" value="C21120"/>
+      <property name="Sheetname" value="manual-analog-ctrl1"/>
+      <property name="Sheetfile" value="manual-analog-ctrl.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/manual-analog-ctrl1/" tstamps="/303f7d68-24cc-4269-92de-7cb42c5f4678/"/>
+      <tstamps>7a5592f9-c3fd-41cb-ad63-d5ad56040060</tstamps>
+    </comp>
+    <comp ref="R301">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="jlcpcb">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="jlcpcb" value="C21190"/>
+      <property name="Sheetname" value="manual-analog-ctrl1"/>
+      <property name="Sheetfile" value="manual-analog-ctrl.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/manual-analog-ctrl1/" tstamps="/303f7d68-24cc-4269-92de-7cb42c5f4678/"/>
+      <tstamps>dba15999-1dc9-455d-ad92-3fb24ab35754</tstamps>
+    </comp>
+    <comp ref="RV301">
+      <value>10k</value>
+      <footprint>Connector_JST:JST_PH_B3B-PH-SM4-TB_1x03-1MP_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="jlcpcb">C265082</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="jlcpcb" value="C265082"/>
+      <property name="Sheetname" value="manual-analog-ctrl1"/>
+      <property name="Sheetfile" value="manual-analog-ctrl.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/manual-analog-ctrl1/" tstamps="/303f7d68-24cc-4269-92de-7cb42c5f4678/"/>
+      <tstamps>a1d4f917-02f5-4b03-8625-76404654d3f2</tstamps>
+    </comp>
+    <comp ref="C401">
+      <value>220n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="jlcpcb">C21120</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="jlcpcb" value="C21120"/>
+      <property name="Sheetname" value="manual-analog-ctrl2"/>
+      <property name="Sheetfile" value="manual-analog-ctrl.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/manual-analog-ctrl2/" tstamps="/fa190f4b-fb06-4793-9ff3-79406860cfde/"/>
+      <tstamps>7a5592f9-c3fd-41cb-ad63-d5ad56040060</tstamps>
+    </comp>
+    <comp ref="R401">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="jlcpcb">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="jlcpcb" value="C21190"/>
+      <property name="Sheetname" value="manual-analog-ctrl2"/>
+      <property name="Sheetfile" value="manual-analog-ctrl.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/manual-analog-ctrl2/" tstamps="/fa190f4b-fb06-4793-9ff3-79406860cfde/"/>
+      <tstamps>dba15999-1dc9-455d-ad92-3fb24ab35754</tstamps>
+    </comp>
+    <comp ref="RV401">
+      <value>10k</value>
+      <footprint>Connector_JST:JST_PH_B3B-PH-SM4-TB_1x03-1MP_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="jlcpcb">C265082</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="jlcpcb" value="C265082"/>
+      <property name="Sheetname" value="manual-analog-ctrl2"/>
+      <property name="Sheetfile" value="manual-analog-ctrl.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/manual-analog-ctrl2/" tstamps="/fa190f4b-fb06-4793-9ff3-79406860cfde/"/>
+      <tstamps>a1d4f917-02f5-4b03-8625-76404654d3f2</tstamps>
+    </comp>
+    <comp ref="C501">
+      <value>220n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="jlcpcb">C21120</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="jlcpcb" value="C21120"/>
+      <property name="Sheetname" value="manual-analog-ctrl3"/>
+      <property name="Sheetfile" value="manual-analog-ctrl.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/manual-analog-ctrl3/" tstamps="/f4dc9b2f-90d3-4d6c-8d9e-9531156d250a/"/>
+      <tstamps>7a5592f9-c3fd-41cb-ad63-d5ad56040060</tstamps>
+    </comp>
+    <comp ref="R501">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="jlcpcb">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="jlcpcb" value="C21190"/>
+      <property name="Sheetname" value="manual-analog-ctrl3"/>
+      <property name="Sheetfile" value="manual-analog-ctrl.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/manual-analog-ctrl3/" tstamps="/f4dc9b2f-90d3-4d6c-8d9e-9531156d250a/"/>
+      <tstamps>dba15999-1dc9-455d-ad92-3fb24ab35754</tstamps>
+    </comp>
+    <comp ref="RV501">
+      <value>10k</value>
+      <footprint>Connector_JST:JST_PH_B3B-PH-SM4-TB_1x03-1MP_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="jlcpcb">C265082</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="jlcpcb" value="C265082"/>
+      <property name="Sheetname" value="manual-analog-ctrl3"/>
+      <property name="Sheetfile" value="manual-analog-ctrl.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/manual-analog-ctrl3/" tstamps="/f4dc9b2f-90d3-4d6c-8d9e-9531156d250a/"/>
+      <tstamps>a1d4f917-02f5-4b03-8625-76404654d3f2</tstamps>
+    </comp>
+    <comp ref="C601">
+      <value>220n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="jlcpcb">C21120</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="jlcpcb" value="C21120"/>
+      <property name="Sheetname" value="manual-analog-ctrl4"/>
+      <property name="Sheetfile" value="manual-analog-ctrl.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/manual-analog-ctrl4/" tstamps="/9ed7839b-294d-47a9-b023-0397928ffbfb/"/>
+      <tstamps>7a5592f9-c3fd-41cb-ad63-d5ad56040060</tstamps>
+    </comp>
+    <comp ref="R601">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="jlcpcb">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="jlcpcb" value="C21190"/>
+      <property name="Sheetname" value="manual-analog-ctrl4"/>
+      <property name="Sheetfile" value="manual-analog-ctrl.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/manual-analog-ctrl4/" tstamps="/9ed7839b-294d-47a9-b023-0397928ffbfb/"/>
+      <tstamps>dba15999-1dc9-455d-ad92-3fb24ab35754</tstamps>
+    </comp>
+    <comp ref="RV601">
+      <value>10k</value>
+      <footprint>Connector_JST:JST_PH_B3B-PH-SM4-TB_1x03-1MP_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="jlcpcb">C265082</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="jlcpcb" value="C265082"/>
+      <property name="Sheetname" value="manual-analog-ctrl4"/>
+      <property name="Sheetfile" value="manual-analog-ctrl.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/manual-analog-ctrl4/" tstamps="/9ed7839b-294d-47a9-b023-0397928ffbfb/"/>
+      <tstamps>a1d4f917-02f5-4b03-8625-76404654d3f2</tstamps>
+    </comp>
+    <comp ref="C701">
+      <value>220n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="jlcpcb">C21120</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="jlcpcb" value="C21120"/>
+      <property name="Sheetname" value="manual-analog-ctrl5"/>
+      <property name="Sheetfile" value="manual-analog-ctrl.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/manual-analog-ctrl5/" tstamps="/a62ddcdb-9b5a-4696-bf7e-102a5fa0349d/"/>
+      <tstamps>7a5592f9-c3fd-41cb-ad63-d5ad56040060</tstamps>
+    </comp>
+    <comp ref="R701">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="jlcpcb">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="jlcpcb" value="C21190"/>
+      <property name="Sheetname" value="manual-analog-ctrl5"/>
+      <property name="Sheetfile" value="manual-analog-ctrl.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/manual-analog-ctrl5/" tstamps="/a62ddcdb-9b5a-4696-bf7e-102a5fa0349d/"/>
+      <tstamps>dba15999-1dc9-455d-ad92-3fb24ab35754</tstamps>
+    </comp>
+    <comp ref="RV701">
+      <value>10k</value>
+      <footprint>Connector_JST:JST_PH_B3B-PH-SM4-TB_1x03-1MP_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="jlcpcb">C265082</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="jlcpcb" value="C265082"/>
+      <property name="Sheetname" value="manual-analog-ctrl5"/>
+      <property name="Sheetfile" value="manual-analog-ctrl.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/manual-analog-ctrl5/" tstamps="/a62ddcdb-9b5a-4696-bf7e-102a5fa0349d/"/>
+      <tstamps>a1d4f917-02f5-4b03-8625-76404654d3f2</tstamps>
+    </comp>
+    <comp ref="C801">
+      <value>220n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="jlcpcb">C21120</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="jlcpcb" value="C21120"/>
+      <property name="Sheetname" value="manual-analog-ctrl7"/>
+      <property name="Sheetfile" value="manual-analog-ctrl.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/manual-analog-ctrl7/" tstamps="/f07c76c4-d851-4217-aae1-0edc70b09cad/"/>
+      <tstamps>7a5592f9-c3fd-41cb-ad63-d5ad56040060</tstamps>
+    </comp>
+    <comp ref="R801">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="jlcpcb">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="jlcpcb" value="C21190"/>
+      <property name="Sheetname" value="manual-analog-ctrl7"/>
+      <property name="Sheetfile" value="manual-analog-ctrl.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/manual-analog-ctrl7/" tstamps="/f07c76c4-d851-4217-aae1-0edc70b09cad/"/>
+      <tstamps>dba15999-1dc9-455d-ad92-3fb24ab35754</tstamps>
+    </comp>
+    <comp ref="RV801">
+      <value>10k</value>
+      <footprint>Connector_JST:JST_PH_B3B-PH-SM4-TB_1x03-1MP_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="jlcpcb">C265082</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="jlcpcb" value="C265082"/>
+      <property name="Sheetname" value="manual-analog-ctrl7"/>
+      <property name="Sheetfile" value="manual-analog-ctrl.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/manual-analog-ctrl7/" tstamps="/f07c76c4-d851-4217-aae1-0edc70b09cad/"/>
+      <tstamps>a1d4f917-02f5-4b03-8625-76404654d3f2</tstamps>
+    </comp>
+    <comp ref="C901">
+      <value>220n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="jlcpcb">C21120</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="jlcpcb" value="C21120"/>
+      <property name="Sheetname" value="manual-analog-ctrl6"/>
+      <property name="Sheetfile" value="manual-analog-ctrl.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/manual-analog-ctrl6/" tstamps="/957b64d6-ade8-45ab-8af6-440e0d0fb479/"/>
+      <tstamps>7a5592f9-c3fd-41cb-ad63-d5ad56040060</tstamps>
+    </comp>
+    <comp ref="R901">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="jlcpcb">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="jlcpcb" value="C21190"/>
+      <property name="Sheetname" value="manual-analog-ctrl6"/>
+      <property name="Sheetfile" value="manual-analog-ctrl.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/manual-analog-ctrl6/" tstamps="/957b64d6-ade8-45ab-8af6-440e0d0fb479/"/>
+      <tstamps>dba15999-1dc9-455d-ad92-3fb24ab35754</tstamps>
+    </comp>
+    <comp ref="RV901">
+      <value>10k</value>
+      <footprint>Connector_JST:JST_PH_B3B-PH-SM4-TB_1x03-1MP_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="jlcpcb">C265082</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="jlcpcb" value="C265082"/>
+      <property name="Sheetname" value="manual-analog-ctrl6"/>
+      <property name="Sheetfile" value="manual-analog-ctrl.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/manual-analog-ctrl6/" tstamps="/957b64d6-ade8-45ab-8af6-440e0d0fb479/"/>
+      <tstamps>a1d4f917-02f5-4b03-8625-76404654d3f2</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="RotaryEncoder_Switch">
+      <description>Rotary encoder, dual channel, incremental quadrate outputs, with switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>RotaryEncoder*Switch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW101</field>
+        <field name="Value">RotaryEncoder_Switch</field>
+        <field name="Footprint">Connector_JST:JST_XH_B5B-XH-AM_1x05_P2.50mm_Vertical</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+        <pin num="4" name="S1" type="passive"/>
+        <pin num="5" name="S2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPST">
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="matterwave" part="RJ45">
+      <fields>
+        <field name="Reference">CO</field>
+        <field name="Value">RJ45</field>
+        <field name="Footprint">matterwave:RJ45</field>
+      </fields>
+      <pins>
+        <pin num="Bl" name="" type="input"/>
+        <pin num="Bl*" name="" type="input"/>
+        <pin num="Br" name="" type="input"/>
+        <pin num="Br*" name="" type="input"/>
+        <pin num="Gr" name="" type="input"/>
+        <pin num="Gr*" name="" type="input"/>
+        <pin num="Or" name="" type="input"/>
+        <pin num="Or*" name="" type="input"/>
+        <pin num="S" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="matterwave" part="stemma-qt">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">stemma-qt</field>
+        <field name="Footprint">Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="V+" type="power_in"/>
+        <pin num="3" name="SDA" type="bidirectional"/>
+        <pin num="4" name="SCL" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="teensy" part="Teensy4.0">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Teensy4.0</field>
+        <field name="Footprint">teensy:Teensy40</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="0_RX1_CRX2_CS1" type="bidirectional"/>
+        <pin num="3" name="1_TX1_CTX2_MISO1" type="bidirectional"/>
+        <pin num="4" name="2_OUT2" type="bidirectional"/>
+        <pin num="5" name="3_LRCLK2" type="bidirectional"/>
+        <pin num="6" name="4_BCLK2" type="bidirectional"/>
+        <pin num="7" name="5_IN2" type="bidirectional"/>
+        <pin num="8" name="6_OUT1D" type="bidirectional"/>
+        <pin num="9" name="7_RX2_OUT1A" type="bidirectional"/>
+        <pin num="10" name="8_TX2_IN1" type="bidirectional"/>
+        <pin num="11" name="9_OUT1C" type="bidirectional"/>
+        <pin num="12" name="10_CS_MQSR" type="bidirectional"/>
+        <pin num="13" name="11_MOSI_CTX1" type="bidirectional"/>
+        <pin num="14" name="12_MISO_MQSL" type="bidirectional"/>
+        <pin num="15" name="VBAT" type="power_in"/>
+        <pin num="16" name="3V3" type="power_in"/>
+        <pin num="17" name="GND" type="power_in"/>
+        <pin num="18" name="PROGRAM" type="input"/>
+        <pin num="19" name="ON_OFF" type="input"/>
+        <pin num="20" name="13_SCK_CRX1_LED" type="bidirectional"/>
+        <pin num="21" name="14_A0_TX3_SPDIF_OUT" type="bidirectional"/>
+        <pin num="22" name="15_A1_RX3_SPDIF_IN" type="bidirectional"/>
+        <pin num="23" name="16_A2_RX4_SCL1" type="bidirectional"/>
+        <pin num="24" name="17_A3_TX4_SDA1" type="bidirectional"/>
+        <pin num="25" name="18_A4_SDA0" type="bidirectional"/>
+        <pin num="26" name="19_A5_SCL0" type="bidirectional"/>
+        <pin num="27" name="20_A6_TX5_LRCLK1" type="bidirectional"/>
+        <pin num="28" name="21_A7_RX5_BCLK1" type="bidirectional"/>
+        <pin num="29" name="22_A8_CTX1" type="bidirectional"/>
+        <pin num="30" name="23_A9_CRX1_MCLK1" type="bidirectional"/>
+        <pin num="31" name="3V3" type="power_out"/>
+        <pin num="32" name="GND" type="power_in"/>
+        <pin num="33" name="VIN" type="power_in"/>
+        <pin num="34" name="VUSB" type="power_out"/>
+        <pin num="35" name="24_A10_TX6_SCL2" type="bidirectional"/>
+        <pin num="36" name="25_A11_RX6_SDA2" type="bidirectional"/>
+        <pin num="37" name="26_A12_MOSI1" type="bidirectional"/>
+        <pin num="38" name="27_A13_SCK1" type="bidirectional"/>
+        <pin num="39" name="28_RX7" type="bidirectional"/>
+        <pin num="40" name="29_TX7" type="bidirectional"/>
+        <pin num="41" name="30_CRX3" type="bidirectional"/>
+        <pin num="42" name="31_CTX3" type="bidirectional"/>
+        <pin num="43" name="32_OUT1B" type="bidirectional"/>
+        <pin num="44" name="33_MCLK2" type="bidirectional"/>
+        <pin num="45" name="34_DAT1_MISO2" type="bidirectional"/>
+        <pin num="46" name="35_DAT0_MOSI2" type="bidirectional"/>
+        <pin num="47" name="GND" type="power_out"/>
+        <pin num="48" name="36_CLK_CS2" type="bidirectional"/>
+        <pin num="49" name="3V3" type="power_out"/>
+        <pin num="50" name="37_CMD_SCK2" type="bidirectional"/>
+        <pin num="51" name="38_DAT3_RX5" type="bidirectional"/>
+        <pin num="52" name="39_DAT2_TX5" type="bidirectional"/>
+        <pin num="53" name="D-" type="bidirectional"/>
+        <pin num="54" name="D+" type="bidirectional"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/symbols//Switch.kicad_sym</uri>
+    </library>
+    <library logical="matterwave">
+      <uri>/home/user/repos/flyg-electronics/flyg-electronics-common/symbols/matterwave.kicad_sym</uri>
+    </library>
+    <library logical="teensy">
+      <uri>/home/user/repos/teensy-kicad-libs/teensy_library/teensy.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="J101" pin="2" pinfunction="V+" pintype="power_in"/>
+      <node ref="J102" pin="2" pinfunction="V+" pintype="power_in"/>
+      <node ref="RV201" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV301" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV401" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV501" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV601" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV701" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV801" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV901" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U101" pin="31" pinfunction="3V3" pintype="power_out"/>
+    </net>
+    <net code="2" name="+VDC">
+      <node ref="U101" pin="33" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="3" name="A0">
+      <node ref="R201" pin="2" pintype="passive"/>
+      <node ref="U101" pin="21" pinfunction="14_A0_TX3_SPDIF_OUT" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="A1">
+      <node ref="R301" pin="2" pintype="passive"/>
+      <node ref="U101" pin="22" pinfunction="15_A1_RX3_SPDIF_IN" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="A4">
+      <node ref="R601" pin="2" pintype="passive"/>
+      <node ref="U101" pin="25" pinfunction="18_A4_SDA0" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="A5">
+      <node ref="R701" pin="2" pintype="passive"/>
+      <node ref="U101" pin="26" pinfunction="19_A5_SCL0" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="A6">
+      <node ref="R901" pin="2" pintype="passive"/>
+      <node ref="U101" pin="27" pinfunction="20_A6_TX5_LRCLK1" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="A7">
+      <node ref="R801" pin="2" pintype="passive"/>
+      <node ref="U101" pin="28" pinfunction="21_A7_RX5_BCLK1" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="A8">
+      <node ref="R401" pin="2" pintype="passive"/>
+      <node ref="U101" pin="29" pinfunction="22_A8_CTX1" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="A9">
+      <node ref="R501" pin="2" pintype="passive"/>
+      <node ref="U101" pin="30" pinfunction="23_A9_CRX1_MCLK1" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="D3">
+      <node ref="CO102" pin="Bl" pintype="input"/>
+      <node ref="U101" pin="5" pinfunction="3_LRCLK2" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="D4">
+      <node ref="CO102" pin="Or" pintype="input"/>
+      <node ref="U101" pin="6" pinfunction="4_BCLK2" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="D5">
+      <node ref="CO102" pin="Gr" pintype="input"/>
+      <node ref="U101" pin="7" pinfunction="5_IN2" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="D6">
+      <node ref="CO102" pin="Br" pintype="input"/>
+      <node ref="U101" pin="8" pinfunction="6_OUT1D" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="D7">
+      <node ref="CO101" pin="Bl" pintype="input"/>
+      <node ref="U101" pin="9" pinfunction="7_RX2_OUT1A" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="D8">
+      <node ref="CO101" pin="Or" pintype="input"/>
+      <node ref="U101" pin="10" pinfunction="8_TX2_IN1" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="D9">
+      <node ref="CO101" pin="Gr" pintype="input"/>
+      <node ref="U101" pin="11" pinfunction="9_OUT1C" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="D10">
+      <node ref="CO101" pin="Br" pintype="input"/>
+      <node ref="U101" pin="12" pinfunction="10_CS_MQSR" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="GND">
+      <node ref="C201" pin="2" pintype="passive"/>
+      <node ref="C301" pin="2" pintype="passive"/>
+      <node ref="C401" pin="2" pintype="passive"/>
+      <node ref="C501" pin="2" pintype="passive"/>
+      <node ref="C601" pin="2" pintype="passive"/>
+      <node ref="C701" pin="2" pintype="passive"/>
+      <node ref="C801" pin="2" pintype="passive"/>
+      <node ref="C901" pin="2" pintype="passive"/>
+      <node ref="CO101" pin="Bl*" pintype="input"/>
+      <node ref="CO101" pin="Br*" pintype="input"/>
+      <node ref="CO101" pin="Gr*" pintype="input"/>
+      <node ref="CO101" pin="Or*" pintype="input"/>
+      <node ref="CO101" pin="S" pintype="input"/>
+      <node ref="CO102" pin="Bl*" pintype="input"/>
+      <node ref="CO102" pin="Br*" pintype="input"/>
+      <node ref="CO102" pin="Gr*" pintype="input"/>
+      <node ref="CO102" pin="Or*" pintype="input"/>
+      <node ref="CO102" pin="S" pintype="input"/>
+      <node ref="J101" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="J102" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="RV201" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RV301" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RV401" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RV501" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RV601" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RV701" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RV801" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RV901" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="SW101" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="SW101" pin="5" pinfunction="S2" pintype="passive"/>
+      <node ref="SW102" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW103" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW104" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW105" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U101" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U101" pin="17" pinfunction="GND" pintype="power_in"/>
+      <node ref="U101" pin="32" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="20" name="Net-(C201-Pad1)">
+      <node ref="C201" pin="1" pintype="passive"/>
+      <node ref="R201" pin="1" pintype="passive"/>
+      <node ref="RV201" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(C301-Pad1)">
+      <node ref="C301" pin="1" pintype="passive"/>
+      <node ref="R301" pin="1" pintype="passive"/>
+      <node ref="RV301" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(C401-Pad1)">
+      <node ref="C401" pin="1" pintype="passive"/>
+      <node ref="R401" pin="1" pintype="passive"/>
+      <node ref="RV401" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(C501-Pad1)">
+      <node ref="C501" pin="1" pintype="passive"/>
+      <node ref="R501" pin="1" pintype="passive"/>
+      <node ref="RV501" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(C601-Pad1)">
+      <node ref="C601" pin="1" pintype="passive"/>
+      <node ref="R601" pin="1" pintype="passive"/>
+      <node ref="RV601" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(C701-Pad1)">
+      <node ref="C701" pin="1" pintype="passive"/>
+      <node ref="R701" pin="1" pintype="passive"/>
+      <node ref="RV701" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(C801-Pad1)">
+      <node ref="C801" pin="1" pintype="passive"/>
+      <node ref="R801" pin="1" pintype="passive"/>
+      <node ref="RV801" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(C901-Pad1)">
+      <node ref="C901" pin="1" pintype="passive"/>
+      <node ref="R901" pin="1" pintype="passive"/>
+      <node ref="RV901" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="28" name="PGRM">
+      <node ref="SW105" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U101" pin="18" pinfunction="PROGRAM" pintype="input"/>
+    </net>
+    <net code="29" name="SCL">
+      <node ref="J101" pin="3" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="J102" pin="3" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U101" pin="23" pinfunction="16_A2_RX4_SCL1" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="SDA">
+      <node ref="J101" pin="4" pinfunction="SCL" pintype="bidirectional"/>
+      <node ref="J102" pin="4" pinfunction="SCL" pintype="bidirectional"/>
+      <node ref="U101" pin="24" pinfunction="17_A3_TX4_SDA1" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="SW_0">
+      <node ref="SW102" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U101" pin="20" pinfunction="13_SCK_CRX1_LED" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="SW_1">
+      <node ref="SW103" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U101" pin="14" pinfunction="12_MISO_MQSL" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="SW_2">
+      <node ref="SW104" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U101" pin="13" pinfunction="11_MOSI_CTX1" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="encoder_A">
+      <node ref="SW101" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U101" pin="2" pinfunction="0_RX1_CRX2_CS1" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="encoder_B">
+      <node ref="SW101" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="U101" pin="3" pinfunction="1_TX1_CTX2_MISO1" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="encoder_push">
+      <node ref="SW101" pin="4" pinfunction="S1" pintype="passive"/>
+      <node ref="U101" pin="4" pinfunction="2_OUT2" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="unconnected-(CO101-PadS)">
+      <node ref="CO101" pin="S" pintype="input"/>
+    </net>
+    <net code="38" name="unconnected-(CO101-PadS)_1">
+      <node ref="CO101" pin="S" pintype="input"/>
+    </net>
+    <net code="39" name="unconnected-(CO101-PadS)_2">
+      <node ref="CO101" pin="S" pintype="input"/>
+    </net>
+    <net code="40" name="unconnected-(CO102-PadS)">
+      <node ref="CO102" pin="S" pintype="input"/>
+    </net>
+    <net code="41" name="unconnected-(CO102-PadS)_1">
+      <node ref="CO102" pin="S" pintype="input"/>
+    </net>
+    <net code="42" name="unconnected-(CO102-PadS)_2">
+      <node ref="CO102" pin="S" pintype="input"/>
+    </net>
+    <net code="43" name="unconnected-(U101-3V3-Pad16)">
+      <node ref="U101" pin="16" pinfunction="3V3" pintype="power_in+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U101-3V3-Pad49)">
+      <node ref="U101" pin="49" pinfunction="3V3" pintype="power_out+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U101-24_A10_TX6_SCL2-Pad35)">
+      <node ref="U101" pin="35" pinfunction="24_A10_TX6_SCL2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U101-25_A11_RX6_SDA2-Pad36)">
+      <node ref="U101" pin="36" pinfunction="25_A11_RX6_SDA2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U101-26_A12_MOSI1-Pad37)">
+      <node ref="U101" pin="37" pinfunction="26_A12_MOSI1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U101-27_A13_SCK1-Pad38)">
+      <node ref="U101" pin="38" pinfunction="27_A13_SCK1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U101-28_RX7-Pad39)">
+      <node ref="U101" pin="39" pinfunction="28_RX7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U101-29_TX7-Pad40)">
+      <node ref="U101" pin="40" pinfunction="29_TX7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(U101-30_CRX3-Pad41)">
+      <node ref="U101" pin="41" pinfunction="30_CRX3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(U101-31_CTX3-Pad42)">
+      <node ref="U101" pin="42" pinfunction="31_CTX3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(U101-32_OUT1B-Pad43)">
+      <node ref="U101" pin="43" pinfunction="32_OUT1B" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(U101-33_MCLK2-Pad44)">
+      <node ref="U101" pin="44" pinfunction="33_MCLK2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(U101-34_DAT1_MISO2-Pad45)">
+      <node ref="U101" pin="45" pinfunction="34_DAT1_MISO2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U101-35_DAT0_MOSI2-Pad46)">
+      <node ref="U101" pin="46" pinfunction="35_DAT0_MOSI2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(U101-36_CLK_CS2-Pad48)">
+      <node ref="U101" pin="48" pinfunction="36_CLK_CS2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U101-37_CMD_SCK2-Pad50)">
+      <node ref="U101" pin="50" pinfunction="37_CMD_SCK2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U101-38_DAT3_RX5-Pad51)">
+      <node ref="U101" pin="51" pinfunction="38_DAT3_RX5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(U101-39_DAT2_TX5-Pad52)">
+      <node ref="U101" pin="52" pinfunction="39_DAT2_TX5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U101-D+-Pad54)">
+      <node ref="U101" pin="54" pinfunction="D+" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U101-D--Pad53)">
+      <node ref="U101" pin="53" pinfunction="D-" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U101-GND-Pad47)">
+      <node ref="U101" pin="47" pinfunction="GND" pintype="power_out+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U101-ON_OFF-Pad19)">
+      <node ref="U101" pin="19" pinfunction="ON_OFF" pintype="input+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U101-VBAT-Pad15)">
+      <node ref="U101" pin="15" pinfunction="VBAT" pintype="power_in+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U101-VUSB-Pad34)">
+      <node ref="U101" pin="34" pinfunction="VUSB" pintype="power_out+no_connect"/>
+    </net>
+  </nets>
+</export>
