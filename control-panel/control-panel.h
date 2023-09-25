@@ -9,8 +9,6 @@
 using namespace EncoderTool;
 
 // Pin definitions
-
-
 namespace controlPanelBoard{
   //encoder pins
   constexpr uint8_t enc_pinA = 0, enc_pinB = 1, enc_pinBtn = 2;
@@ -29,7 +27,7 @@ namespace controlPanelBoard{
   constexpr uint8_t digital_out_0[] = {3,4,5,6};
   constexpr uint8_t digital_out_1[] = {7,8,9,10}; 
   constexpr uint8_t digital_out_all[] = {3,4,5,6,7,8,9,10};
-
+  constexpr uint8_t num_digital_outs = 8;
 }
 
 class controlPanel {
@@ -61,6 +59,12 @@ class controlPanel {
     uint16_t analog_in_state[8];
     bool digital_out_state[8];
 
+    //write to the digital outputs
+    bool dWrite(uint8_t,bool);
+
+    //Retreive pin number from digital output ports
+    uint8_t getPinNumber(uint8_t);
+
   private:
     //Previous state for noticing changes
     bool digital_in_state_cache[3];
@@ -68,30 +72,25 @@ class controlPanel {
     bool digital_out_state_cache[8];
 };
 
-
 //Constructor
 controlPanel::controlPanel(){
-
   // Initialize digital outputs and set to zero ASAP
   // Dont want to have anything turned on by mistake at startup
   for (uint8_t idx=0; idx< sizeof(controlPanelBoard::digital_out_all)/sizeof(controlPanelBoard::digital_out_all[0]); idx++){
     pinModeFast(controlPanelBoard::digital_out_all[idx], OUTPUT);
     digitalWriteFast(controlPanelBoard::digital_out_all[idx], 0);
   }
-
 }
 
 void controlPanel::init(){
-
+  bool status = 1;
   for (uint8_t idx=0; idx<sizeof(controlPanelBoard::digital_in)/sizeof(controlPanelBoard::digital_in[0]);idx++ ){
     pinMode(controlPanelBoard::digital_in[idx],INPUT_PULLUP);
   }
 
-
-  enc.begin(controlPanelBoard::enc_pinA, controlPanelBoard::enc_pinB, controlPanelBoard::enc_pinBtn);
-
+  enc.begin(controlPanelBoard::enc_pinA, controlPanelBoard::enc_pinB, controlPanelBoard::enc_pinBtn);  
+  status = status & display.begin(0x3D, true);
   delay(250); // wait for the OLED to power up
-  display.begin(0x3D, true);
   // Clear the buffer.
   display.clearDisplay();
   display.setTextSize(1);             // Normal 1:1 pixel scale
@@ -99,8 +98,6 @@ void controlPanel::init(){
   display.setCursor(0,0);             // Start at top-left corner
   display.println("Teensy Control Panel Booting up!");
   display.display();
-
-
 }
 
 void controlPanel::readState(){
@@ -164,7 +161,22 @@ void controlPanel::reportDiff(){
       }
       Serial.println();
     }
-
-
 }
+
+bool controlPanel::dWrite(uint8_t port_num, bool state){
+  if (port_num < controlPanelBoard::num_digital_outs){
+    digitalWriteFast(controlPanelBoard::digital_out_all[port_num],state);
+    return 1;
+  }
+  else{
+    Serial.print("ctrl panel invalid write to port: ");
+    Serial.println(port_num);
+    return 0;
+  }
+}
+
+uint8_t controlPanel::getPinNumber(uint8_t port_num){
+  return controlPanelBoard::digital_out_all[port_num];
+}
+
 #endif //CONTROL_PANEL_H
