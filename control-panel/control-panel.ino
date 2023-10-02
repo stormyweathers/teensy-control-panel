@@ -1,7 +1,13 @@
 
 #include "control-panel.h"
+#include "TeensyTimerTool.h"
 
 controlPanel panel;
+TeensyTimerTool::PeriodicTimer read_timer(TeensyTimerTool::TCK);
+
+void timer_callback(){
+  panel.readState();
+}
 
 void setup() {
   // put your setup code here, to run once:
@@ -13,14 +19,18 @@ void setup() {
   // For some reason, only 8,10,12 work as expected.  All other vals default to 12 bits
   analogReadResolution(8);
   Serial.println("init done");
-  panel.dWrite(static_cast<uint8_t>(6),LOW);
+
+  read_timer.begin(timer_callback,1000);
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
-    panel.readState();                         //call as often as possible, around every ms or so
-    panel.reportDiff();
-    delay(1);
+    //panel.readState();                         //call as often as possible, around every ms or so
+    //panel.reportDiff();
+    if (panel.anyInputsChanged){
+      panel.reportStateOled();
+    }
+    delay(10);
     //panel.enc.tick();
     //if (panel.enc.valueChanged()){
     //    Serial.print("Encoder new value: ");

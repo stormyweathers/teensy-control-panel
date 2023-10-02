@@ -6,6 +6,8 @@
 #include <Adafruit_SH110X.h>
 #include "EncoderTool.h"
 #include <digitalWriteFast.h>
+#include <Bounce2.h>
+
 using namespace EncoderTool;
 
 // Pin definitions
@@ -14,10 +16,14 @@ namespace controlPanelBoard{
   constexpr uint8_t enc_pinA = 0, enc_pinB = 1, enc_pinBtn = 2;
 
   // button/switch inputs
-  constexpr uint8_t digital_in[] = {11,12,13};
+  constexpr uint8_t joystick_button=11, button=12, toggle=13;
+  constexpr uint8_t digital_in[] = {joystick_button,button,toggle};
 
   //Analog slider/pot inputs
-  constexpr uint8_t analog_in[] = {A0,A1,A4,A5,A6,A7,A8, A9}; 
+  constexpr uint8_t joystick_x = A0, joystick_y = A1, joystick_z = A4;
+  constexpr uint8_t slider_r = A5, slider_c = A6, slider_l = A7;
+  // unused ports on the board: A8,A9
+  constexpr uint8_t analog_in[] = {joystick_x,joystick_y,joystick_z,slider_r,slider_c,slider_l}; 
 
   //Pins for oled screen
   constexpr uint16_t screen_width=128, screen_height=128;
@@ -43,6 +49,17 @@ class controlPanel {
 
     // serial print the difference between current and previous state
     void reportDiff();
+
+    // write the state of all inputs to OLED
+    void reportStateOled();
+
+    //
+    void poll();
+
+    //debounce objects for digital inputs
+    Bounce2::Button joystick_button = Bounce2::Button();
+    Bounce2::Button button = Bounce2::Button();
+    Bounce toggle = Bounce();
 
     //flags to detect changed inputs
     bool anyInputsChanged;
@@ -83,13 +100,9 @@ controlPanel::controlPanel(){
 }
 
 void controlPanel::init(){
-  bool status = 1;
-  for (uint8_t idx=0; idx<sizeof(controlPanelBoard::digital_in)/sizeof(controlPanelBoard::digital_in[0]);idx++ ){
-    pinMode(controlPanelBoard::digital_in[idx],INPUT_PULLUP);
-  }
 
   enc.begin(controlPanelBoard::enc_pinA, controlPanelBoard::enc_pinB, controlPanelBoard::enc_pinBtn);  
-  status = status & display.begin(0x3D, true);
+  display.begin(0x3D, true);
   delay(250); // wait for the OLED to power up
   // Clear the buffer.
   display.clearDisplay();
@@ -98,25 +111,42 @@ void controlPanel::init(){
   display.setCursor(0,0);             // Start at top-left corner
   display.println("Teensy Control Panel Booting up!");
   display.display();
+
+  // Initialize debounce objects for digital inputs
+  button.attach(controlPanelBoard::button,INPUT_PULLUP);
+  button.interval(25);
+  button.setPressedState(LOW);
+
+  joystick_button.attach(controlPanelBoard::joystick_button,INPUT_PULLUP);
+  joystick_button.interval(25);
+  joystick_button.setPressedState(LOW);
+
+  toggle.attach(controlPanelBoard::toggle,INPUT_PULLUP);
+  toggle.interval(25);
 }
 
-void controlPanel::readState(){
-  //Read states of all inputs, cache old state, and compare to detect changes
-  analogInChanged = 0;
-
+void controlPanel::poll(){
+  //Poll all digital input pins
+  
   //Encoder
   enc.tick();
   encoderChanged = enc.valueChanged();
   encoderButtonChanged = enc.buttonChanged();
 
-  //Digital inputs
-  digitalInChanged = 0;
-  for (uint8_t idx=0; idx<sizeof(controlPanelBoard::digital_in)/sizeof(controlPanelBoard::digital_in[0]);idx++ ){
-    digital_in_state_cache[idx] = digital_in_state[idx];
-    digital_in_state[idx] = digitalRead(controlPanelBoard::digital_in[idx]);
-    digitalInChanged |= (digital_in_state[idx] != digital_in_state_cache[idx]);
-  }
+  joystick_button.update();
+  button.update();
+  toggle.update();
+  digitalInChanged = joystick_button.changed() | button.changed() | toggle.changed();
 
+}
+
+void controlPanel::readState(){
+  //Read states of all inputs, cache old state, and compare to detect changes
+
+  poll();
+
+
+  analogInChanged = 0;
   //analog_inputs
   analogInChanged = 0;
   for (uint8_t idx=0; idx<sizeof(controlPanelBoard::analog_in)/sizeof(controlPanelBoard::analog_in[0]);idx++ ){
@@ -161,6 +191,38 @@ void controlPanel::reportDiff(){
       }
       Serial.println();
     }
+}
+
+void controlPanel::reportStateOled(){
+  display.clearDisplay();
+  display.setCursor(0,0);
+
+  display.print("Encoder: (  ");
+  display.print(enc.getValue());
+  display.print(" , ");
+  display.println(enc.getButton() == LOW ? "X )" : "O )");
+
+  display.print("Button: ");
+  display.println(button.isPressed() == HIGH ? "X" : "O");
+
+  display.print("Toggle: ");
+  display.println(toggle.read() == LOW ? "X" : "O");
+
+  display.print("Joystick: ");
+  display.print(analog_in_state[0]);
+  display.print(" ");
+  display.print(analog_in_state[1]);
+  display.print(" ");
+  display.println(analog_in_state[2]);
+
+  display.print("Sliders: ");
+  display.print(analog_in_state[5]);
+  display.print(" ");
+  display.print(analog_in_state[4]);
+  display.print(" ");
+  display.println(analog_in_state[3]);
+
+  display.display();
 }
 
 bool controlPanel::dWrite(uint8_t port_num, bool state){
