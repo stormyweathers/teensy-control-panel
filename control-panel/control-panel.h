@@ -32,12 +32,17 @@ namespace controlPanelBoard{
   //Pins for digital outputs
   constexpr uint8_t digital_out_0[] = {3,4,5,6};
   constexpr uint8_t digital_out_1[] = {7,8,9,10}; 
-  constexpr uint8_t digital_out_all[] = {3,4,5,6,7,8,9,10};
+  //constexpr uint8_t digital_out_all[] = {3,4,5,6,7,8,9,10};
+  //using 22,23 as digital outs instead of analog outs
+  constexpr uint8_t digital_out_all[] = {3,4,5,6,7,8,9,10,22,23};
   constexpr uint8_t num_digital_outs = 8;
 }
 
 class controlPanel {
   public:
+
+    int resolution;
+
     //Constructor
     controlPanel();
 
@@ -51,7 +56,7 @@ class controlPanel {
     void reportDiff();
 
     // write the state of all inputs to OLED
-    void reportStateOled();
+    void reportStateOled(bool update_display);
 
     //
     void poll();
@@ -76,6 +81,16 @@ class controlPanel {
     uint16_t analog_in_state[8];
     bool digital_out_state[8];
 
+    // neutral values, may change over long time
+    int joystick_x0;
+    int joystick_y0;
+    int joystick_z0;
+
+    // Converted to floats
+    float joystick_x;
+    float joystick_y;
+    float joystick_z;
+
     //write to the digital outputs
     bool dWrite(uint8_t,bool);
 
@@ -91,6 +106,7 @@ class controlPanel {
 
 //Constructor
 controlPanel::controlPanel(){
+
   // Initialize digital outputs and set to zero ASAP
   // Dont want to have anything turned on by mistake at startup
   for (uint8_t idx=0; idx< sizeof(controlPanelBoard::digital_out_all)/sizeof(controlPanelBoard::digital_out_all[0]); idx++){
@@ -123,6 +139,12 @@ void controlPanel::init(){
 
   toggle.attach(controlPanelBoard::toggle,INPUT_PULLUP);
   toggle.interval(25);
+
+  analogReadResolution(this->resolution);
+  //Set default values at halfway point
+  this->joystick_x0 = pow(2,this->resolution-1)-1;
+  this->joystick_y0 = pow(2,this->resolution-1)-1;
+  this->joystick_z0 = pow(2,this->resolution-1)-1;
 }
 
 void controlPanel::poll(){
@@ -142,9 +164,7 @@ void controlPanel::poll(){
 
 void controlPanel::readState(){
   //Read states of all inputs, cache old state, and compare to detect changes
-
   poll();
-
 
   analogInChanged = 0;
   //analog_inputs
@@ -157,6 +177,10 @@ void controlPanel::readState(){
   }
 
   anyInputsChanged = encoderChanged | encoderButtonChanged | analogInChanged | digitalInChanged;
+
+  this->joystick_x = (this->analog_in_state[0]-this->joystick_x0)/pow(2,this->resolution-1);
+  this->joystick_y = (this->analog_in_state[1]-this->joystick_y0)/pow(2,this->resolution-1);
+  this->joystick_z = (this->analog_in_state[2]-this->joystick_z0)/pow(2,this->resolution-1);
 }
 
 
@@ -193,9 +217,11 @@ void controlPanel::reportDiff(){
     }
 }
 
-void controlPanel::reportStateOled(){
+void controlPanel::reportStateOled(bool update_display){
+  if(update_display){
   display.clearDisplay();
   display.setCursor(0,0);
+  }
 
   display.print("Encoder: (  ");
   display.print(enc.getValue());
@@ -222,7 +248,7 @@ void controlPanel::reportStateOled(){
   display.print(" ");
   display.println(analog_in_state[3]);
 
-  display.display();
+  if (update_display){display.display();}
 }
 
 bool controlPanel::dWrite(uint8_t port_num, bool state){

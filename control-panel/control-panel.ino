@@ -14,10 +14,11 @@ void setup() {
   Serial.begin(9600);
   
   panel.init();
-
-  delay(250); // wait for the OLED to power up
   // For some reason, only 8,10,12 work as expected.  All other vals default to 12 bits
-  analogReadResolution(8);
+  panel.resolution=8;
+  delay(250); // wait for the OLED to power up
+  
+  
   Serial.println("init done");
 
   read_timer.begin(timer_callback,1000);
@@ -28,7 +29,7 @@ void loop() {
     //panel.readState();                         //call as often as possible, around every ms or so
     //panel.reportDiff();
     if (panel.anyInputsChanged){
-      panel.reportStateOled();
+      panel.reportStateOled(true);
     }
     delay(10);
     //panel.enc.tick();
