@@ -1,5 +1,5 @@
 
-#include "control-panel.h"
+#include "ControlPanel.h"
 #include "TeensyTimerTool.h"
 
 controlPanel panel;

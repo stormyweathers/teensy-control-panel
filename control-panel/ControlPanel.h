@@ -45,9 +45,12 @@ class controlPanel {
 
     //Constructor
     controlPanel();
+    
 
     // Initializer
     void init();
+    void init(uint8_t rotation);
+    
 
     //Read all inputs
     void readState();
@@ -113,6 +116,12 @@ controlPanel::controlPanel(){
     pinModeFast(controlPanelBoard::digital_out_all[idx], OUTPUT);
     digitalWriteFast(controlPanelBoard::digital_out_all[idx], 0);
   }
+}
+
+//overload initializer to give optional rotation parameter
+void controlPanel::init(uint8_t rotation){
+  controlPanel::init();
+  display.setRotation(rotation); 
 }
 
 void controlPanel::init(){
